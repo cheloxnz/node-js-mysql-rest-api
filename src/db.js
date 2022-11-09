@@ -7,6 +7,7 @@ import {
   DB_DATABASE,
 } from "./config.js";
 
+
 export const pool = createPool({
   host: DB_HOST,
   user: DB_USER,
